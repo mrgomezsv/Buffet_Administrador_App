@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PublicActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/icon_buffet_while" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Publicar Menu del Dia"
+        android:textColor="#DB9423"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilData"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:hint="Fecha del Menu"
+            android:textColor="#707070"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilData5"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:text="Publicar" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:hint="Plato 1"
+        android:textColor="#707070"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:hint="Plato 2"
+        android:textColor="#707070"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:hint="Plato 3"
+        android:textColor="#707070"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:hint="Plato 4"
+        android:textColor="#707070"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="325dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData5"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:hint="Plato 5"
+        android:textColor="#707070"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="50dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewData"
+        android:textColor="#707070"
+        android:text=""
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="260dp"/>
+
+    <TextView
+        android:id="@+id/textViewPlato2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPlato1"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="60dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPlato2"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="58dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPlato3"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="55dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPlato4"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="53dp"
+        android:text="" />
+
+
+</RelativeLayout>

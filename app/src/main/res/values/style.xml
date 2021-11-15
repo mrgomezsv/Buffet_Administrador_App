@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.YourApp.Light" parent="Theme.MaterialComponents.Light">
+        <item name="logo">@drawable/icon_buffet_dia</item>
+    </style>
+
+    <style name="Theme.YourApp.Dark" parent="Theme.MaterialComponents">
+        <item name="logo">@drawable/icon_buffet_noche</item>
+    </style>
+</resources>

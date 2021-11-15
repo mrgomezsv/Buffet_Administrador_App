@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Buffet Administrador</string>
+    <string name="prefs_file">com.buffetproevent.buffetapp.PREFERENCE_FILE_KEY</string>
+    <string name="product_create">Crear</string>
+    <string name="product_msg_loading">Preparando todo...</string>
+    <string name="hint_name">Nombre del Producto</string>
+    <string name="hint_description">Descripción del Producto</string>
+    <string name="hint_quantity">Cantidad</string>
+    <string name="hint_price">Precio</string>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AboutUsActivity">
+
+    <ImageButton
+        android:id="@+id/btnAtras2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_media_rew"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/icon_buffet_while" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="En Buffet ProEvent"
+        android:textColor="#DB9423"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:text="Somos Expertos en Todo Tipo de "
+        android:textSize="18dp"
+        android:textColor="#707070"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="Eventos Sociales y Empresariales"
+        android:textSize="18dp"
+        android:textColor="#707070"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="brindándote el mejor servicio con la calidad"
+        android:textSize="18dp"
+        android:textColor="#707070"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:text="que te mereces tu y tus invitados."
+        android:textSize="18dp"
+        android:textColor="#707070"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="50dp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="0dp"
+        android:layout_below="@+id/textView5"
+        android:minWidth="120dp"
+        android:minHeight="120dp">
+
+        <ImageView
+            android:id="@+id/imgGrupo"
+            tools:ignore="ContentDescription"
+            android:src="@drawable/img_grupo"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:text="Team Buffet ProEvent"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="#536895"
+        android:text="BuffetProEvent"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="20dp"
+        app:strokeColor="@color/gris" />
+
+    <Button
+        android:id="@+id/btnUrl"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnFacebook"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="buffetproevent.com"
+        android:backgroundTint="#DB9423"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="20dp"
+        app:strokeColor="@color/gris"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/btnWhastapp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnUrl"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="#29AF5B"
+        android:text="Whatsapp"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="20dp"
+        app:strokeColor="@color/gris" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="688dp"
+        app:srcCompat="@drawable/ico_whatsapp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="618dp"
+        app:srcCompat="@drawable/icon_navegador" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="547dp"
+        app:srcCompat="@drawable/icon_facebook" />
+
+</RelativeLayout>

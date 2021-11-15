@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PublicAntoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/icon_buffet_while" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Publicar Antojitos de Buffet"
+        android:textColor="#DB9423"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDataAnto"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:textColor="#707070"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="25dp"
+        android:hint="Fecha del Menu">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDataAnto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSendAnto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilData6Anto"
+        android:textColor="#707070"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:text="Publicar" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData1Anto"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="100dp"
+        android:hint="Antojito 1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData1Anto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData2Anto"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="175dp"
+        android:hint="Antojito 2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData2Anto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData3Anto"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="250dp"
+        android:hint="Antojito 3">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData3Anto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData4Anto"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="325dp"
+        android:hint="Antojito 4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData4Anto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData5Anto"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="400dp"
+        android:hint="Antojito 5">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData5Anto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilData6Anto"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="475dp"
+        android:hint="Antojito 6">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etData6Anto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textViewDataAnto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="50dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato1Anto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDataAnto"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="50dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato2Anto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPlato1Anto"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="60dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato3Anto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPlato2Anto"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="58dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato4Anto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPlato3Anto"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="55dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato5Anto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPlato4Anto"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="53dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPlato6Anto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPlato5Anto"
+        android:textColor="#707070"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="53dp"
+        android:text="" />
+
+</RelativeLayout>
